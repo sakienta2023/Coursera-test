@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+   
+}
+
 h1 {
-    align-self: center;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     
@@ -14,8 +18,32 @@ h1 {
 .container {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .Column {
     padding: 10px;
+    background-color: #9BD4FE;
+    position: relative;
 }
+
+.Section-Title {
+    background-color: #118AEF;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5px;
+    position: relative;
+    
+}
+
+@media screen and (min-width: 992px) {
+    /* desktop styles go here */
+  }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /*  tablet styles go here */
+  }
+
+@media screen and (max-width: 767px) {
+    /*  mobile styles go here */
+  }  
