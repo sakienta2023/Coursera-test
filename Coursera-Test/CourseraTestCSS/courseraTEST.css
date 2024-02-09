@@ -25,6 +25,7 @@ h1 {
     padding: 10px;
     background-color: #9BD4FE;
     position: relative;
+    font-size: 75%;
 }
 
 .Section-Title {
@@ -33,6 +34,8 @@ h1 {
     flex-direction: row;
     padding: 5px;
     position: relative;
+    font-size: 12px;
+    
     
 }
 
